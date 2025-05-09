@@ -1,0 +1,746 @@
+* {
+   margin: 0px;
+   font-family: arial; 
+   border: border-box;
+}
+/**navber**/
+.navbar {
+    height: 60px;
+    background-color: #0f1111 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/**box1**/
+.nav-loga {
+    height: 50px;
+    width: 100px ;
+}
+.loga {
+    background-image: url("Amazon logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/**box2**/
+.add-1 {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.add-2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/**box3**/
+.nav-search {
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68 ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover {
+    border: 2px solid orange ;
+}
+/**box4**/
+span {
+    font-size: 0.7rem;
+}
+.nav-2 {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box6**/
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**Panel**/
+.Panel {
+    height: 40px;
+    background-color:#222f3d ;
+    display:flex;
+    color:white ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/**Hero section**/
+.hero-section {
+    background-image: url(hero\ 1.jpg) ;
+    background-size: cover;
+    height: 350px;
+}
+.hero-section:hover {
+    border: 1.5px solid black;
+}
+/**shop-section 1**/
+.shop-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 5px;
+}
+.box{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: wheat;
+    padding: 20px 0px 15px;
+}
+.box:hover {
+    border: 1.5px solid wheat;
+}
+.box-img {
+    background-image: url(Abhi.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content a {
+    text-decoration: none;
+    color: #007185;
+}
+/**shop-section 2**/
+ .box h3 {
+    margin-left: 10px;
+}
+.a-box {
+    display: flex;
+}
+.box-contener-box-1 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box-contener-box-2 {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.box a {
+    margin-left: 10px;
+    text-decoration:none ;
+    color: #007185;
+}
+.box-contener1 {
+    display:flex ;
+}
+.box-a {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop31.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-b {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop32.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.box-contener2 {
+    display: flex;
+}
+.box-c {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop33.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-d {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop34.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+/**shop-section 31 **/
+.shop-section-abhiq {
+    background-color:wheat;
+    height: 435px;
+    width: 15%;
+}
+.shop-section-abhiq:hover {
+    border: 2px solid white;
+}
+.box-contentqqq {
+    background-image: url(shop-section\ 60.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxqqq h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.boxqqq a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+/**shop-section 3**/
+.box-contenera {
+    display:flex ;
+}
+.box-0 {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ 21.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-00 {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop22.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.box-contenerb {
+    display:flex ;
+}
+.box-000{
+    height: 150px;
+    width: 50%;
+    background-image:url(shop23.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-0000 {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop24.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.c-box {
+    display: flex;
+}
+.box-contener-box-5 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box-contener-box-6 {
+    margin-left: 22px;
+    margin-top: 5px;
+}
+/** shop-section32**/
+.shop-sectionkk {
+    display: flex;
+    justify-content: space-around;
+    background-color: (white);
+    margin-top: 15px;
+}
+.shop-section-abhiqq {
+    background-color:wheat;
+    height: 435px;
+    width: 15%;
+}
+.shop-section-abhiqq:hover {
+    border: 2px solid white;
+}
+.box-contentqqqq {
+    background-image: url(shop-section\ 61.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxqqqq h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.boxqqqq a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+/**shop-section4**/
+.boxkk:hover {
+    border: 1.5px solid wheat;
+}
+.boxkk{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color:wheat;
+    padding: 20px 0px 15px;
+}
+.box-imgkk {
+    background-image: url(Abhiraj\ kumar.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.box-contentkk {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxkk h3 {
+    margin-left: 10px;
+}
+.boxkk a {
+    margin-left: 10px;
+    text-decoration: none;
+    color:  #007185;
+}
+
+/**shop-section 5**/
+.box h3 {
+    margin-left: 10px;
+}
+.boxhh{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: wheat;
+    padding: 20px 0px 15px;
+}
+.boxhh:hover {
+    border: 1.5px solid wheat;
+}
+.a-boxhh {
+    display: flex;
+}
+.box-contener-box-1hh {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box-contener-box-2hh {
+    margin-left: 75px;
+    margin-top: 5px;
+}
+.boxhh a {
+    margin-left: 10px;
+    text-decoration:none ;
+    color: #007185;
+}
+
+.box-contener1hh {
+    display:flex ;
+}
+.boxhh h3 {
+    margin-left: 10px;
+}
+.box-ahh {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section41.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-bhh {
+    height: 150px;
+    width: 50%;
+   background-image:url(shop\ section\ 42.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.box-contener2hh {
+    display: flex;
+}
+.box-chh {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section43.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-dhh {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section\ 44.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+/**shop-section 6**/
+.box-contenerarr {
+    display:flex ;
+}
+.boxrr:hover {
+    border: 1.5px solid wheat;
+}
+.boxrr{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: wheat;
+    padding: 20px 0px 15px;
+}
+.box-0rr {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section51.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-00rr {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section\ 52.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.box-contenerbrr {
+    display:flex ;
+}
+.box-000rr{
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section\ 53.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.box-0000rr {
+    height: 150px;
+    width: 50%;
+    background-image:url(shop\ section\ 54.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.c-boxrr {
+    display: flex;
+}
+.box-contener-box-5rr {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box-contener-box-6rr {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.boxrr h3 {
+    margin-left: 10px;
+}
+.boxrr a {
+    margin-left: 10px;
+    text-decoration: none;
+    color:  #007185;
+}
+/**Hero section**/
+.hero-section2 {
+    background-image: url(hero\ 2.jpg) ;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 350px;
+}
+.hero-section2:hover {
+    border: 1.5px solid black;
+}
+/**shop-section 7**/
+.shop-section3 {
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+   
+    
+}
+.shop-section-abhi {
+    height: 400px;
+    width: 15%;
+    border: 1.5px solid white;
+    background-color: wheat;
+}
+.shop-section-abhi:hover{
+    border: 2px solid wheat;
+}
+    
+.box-contentqq{
+    background-image: url(shop-section\ 63.jpg);
+    background-size: cover;
+    height: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boxqq h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.boxqq a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+.shop-section-raj {
+    height: 400px;
+    width: 15%;
+    background-color: wheat;
+    border: 1.5px solid white;
+
+}
+.shop-section-raj:hover{
+    border: 2px solid wheat;
+}
+.box-contentww {
+    background-image: url(shop-section\ 66.jpg);
+    background-size: cover;
+    height: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.boxww h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.boxww a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+.shop-section-abhiraj {
+    height: 400px;
+    width: 15%;
+    background-color: wheat;
+    border: 1.5px solid white;
+}
+.shop-section-abhiraj:hover {
+    border: 2px solid wheat;
+}
+.box-contentee {
+    background-image: url(shop-section\ 65.jpg);
+    background-size: cover;
+    height: 310px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.boxee h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.boxee a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+.shop-section-kumar {
+    height: 400px;
+    width: 15%;
+    background-color: wheat;
+    border: 1.5px solid white;
+}
+.shop-section-kumar:hover{
+    border: 2px solid wheat;
+}
+.boxpp h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.boxpp a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+.box-contentpp {
+    background-image: url(shop-section\ 62.jpg);
+    background-size: cover;
+    height: 310px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.shop-section-kumar-raj{
+    height: 400px;
+    width: 15%;
+    background-color: wheat;
+    border: 1.5px solid white;
+}
+.shop-section-kumar-raj:hover {
+    border: 2px solid wheat;
+
+}
+.box-contentraj {
+    background-image: url(abhi1.jpg);
+    background-size: cover;
+    height: 310px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}.boxoo h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}.boxoo a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+    
+/**footer**/
+footer {
+    margin-top: 10px;
+}
+.footer-panel {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 30px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddd;
+}
+.footer-panel3 {
+    background-color:#222f3d;
+    border-top:0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url("Amazon\ logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.footer-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-panel4 a {
+    color: wheat;
+    margin-top: 2px;
+}
+.foooter-panel5 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.pages {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
